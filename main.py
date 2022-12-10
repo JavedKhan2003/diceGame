@@ -13,7 +13,7 @@ scr = 0  # Score
 count = 0
 
 while i != "n":
-    x = int(input("Enter Number from (1-6): "))
+    x = int(input("Enter number from (1-6): "))
     y = random.randint(1, 6)
 
     if x not in range(1, 6 + 1):
